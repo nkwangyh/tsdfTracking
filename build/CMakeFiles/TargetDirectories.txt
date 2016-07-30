@@ -1,0 +1,3 @@
+D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/ALL_BUILD.dir
+D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/ZERO_CHECK.dir
+D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/ICPR14.dir

@@ -1,0 +1,159 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f486e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/7/30 10:38:49。
+节点 1 上的项目“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_f486e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f486e.dir\Debug\”。
+  正在创建目录“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f486e.dir\Debug\cmTC_f486e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f486e.dir\Debug\cmTC_f486e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\4.8.7\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_f486e.dir\Debug\\" /Fd"cmTC_f486e.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /IC:\Qt\4.8.7\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_f486e.dir\Debug\\" /Fd"cmTC_f486e.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “Q_WS_X11”: 未声明的标识符 [D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_f486e.vcxproj]
+已完成生成项目“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_f486e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_f486e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “Q_WS_X11”: 未声明的标识符 [D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_f486e.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.35
+
+File D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_73a0b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/7/30 10:38:50。
+节点 1 上的项目“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_73a0b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_73a0b.dir\Debug\”。
+  正在创建目录“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_73a0b.dir\Debug\cmTC_73a0b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_73a0b.dir\Debug\cmTC_73a0b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\4.8.7\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_73a0b.dir\Debug\\" /Fd"cmTC_73a0b.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /IC:\Qt\4.8.7\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_73a0b.dir\Debug\\" /Fd"cmTC_73a0b.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “Q_WS_QWS”: 未声明的标识符 [D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_73a0b.vcxproj]
+已完成生成项目“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_73a0b.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_73a0b.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “Q_WS_QWS”: 未声明的标识符 [D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_73a0b.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.36
+
+File D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ab1f1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/7/30 10:38:51。
+节点 1 上的项目“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_ab1f1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ab1f1.dir\Debug\”。
+  正在创建目录“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ab1f1.dir\Debug\cmTC_ab1f1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ab1f1.dir\Debug\cmTC_ab1f1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\4.8.7\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ab1f1.dir\Debug\\" /Fd"cmTC_ab1f1.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /IC:\Qt\4.8.7\include /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ab1f1.dir\Debug\\" /Fd"cmTC_ab1f1.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “Q_WS_MAC”: 未声明的标识符 [D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_ab1f1.vcxproj]
+已完成生成项目“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_ab1f1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_ab1f1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “Q_WS_MAC”: 未声明的标识符 [D:\wangyh\git\ICPRCMAKE\build\CMakeFiles\CMakeTmp\cmTC_ab1f1.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.33
+
+File D:/wangyh/git/ICPRCMAKE/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
